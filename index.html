@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<title>暮らしの金融・投資情報</title>
+<link rel="icon" href="/favicon.ico">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- Bootstrap core CSS -->
+<link href="bootstrap3/css/bootstrap.css" type="text/css"  rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="bootstrap3/css/custom-css.css" type="text/css"  rel="stylesheet">
+<link href="./common/animatedtablesorter-0.2.2/tsortstyle.css" type="text/css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+<!-- Fixed navbar -->
+<header>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="http://www.shl.co.jp/"><img src="./img/header.png" style="height:30px;" alt=""></a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+					<a href="index.html/">トップページ</a>
+					</li>
+					<li>
+					<a href="fx/index.php">FX</a>
+					</li>
+					<li>
+					<a href="sec/index.php">証券</a>
+					</li>
+					<li>
+					<a href="credit/index.php">クレジットカード</a>
+					</li>
+					<li>
+					<a href="http://www2.shl.ne.jp/recruit/index.asp">住宅ローン</a>
+					</li>
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">比較コンテンツ<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li>
+						<a href="fx/hikaku.php">FX比較</a>
+						</li>
+						<li>
+						<a href="sec/hikaku.php">証券比較</a>
+						</li>
+						<li>
+						<a href="credit/hikaku.php">クレジットカード比較</a>
+						</li>
+						<li>
+						<a href="hLoan/hikaku.php">住宅ローン比較</a>
+						</li>
+					</ul>
+					</li>
+					<li>
+					<a href="http://www2.shl.ne.jp/info.asp">お問い合わせ</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<!-- /Fixed navbar -->
+<!--/main -->
+<main>
+	<div class="container" role="main">
+		<!--carousel-->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<a href="http://www2.shl.ne.jp/special/c-gab/index.asp" target="_blank"><img src="img/carousel/c-gab.png" alt="First slide"></a>
+				</div>
+				<div class="item">
+					<a href="http://www2.shl.ne.jp/masa/index.asp" target="_blank"><img src="img/carousel/masa.png" alt="Second slide"></a>
+				</div>
+				<div class="item">
+					<a href="http://www2.shl.ne.jp/product/index.asp"><img src="img/carousel/product.png" alt="Third slide"></a>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="fa fa-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="fa fa-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!--/carousel-->
+		
+		<!--お知らせ-->
+		<div class="announcement clearfix">
+			<div class="alert alert-info" role="alert">
+				<p><strong><i class="fa fa-star"></i>&nbsp;お知らせ</strong>　 
+
+				<span class="label label-danger">移転</span> <a href="http://www2.shl.ne.jp/info/osaka.asp" target="_blank">大阪オフィス移転のご案内</a>
+				</p>
+			</div>
+		</div>
+		<!--/お知らせ-->
+		
+		<!--3カラム-->
+		<div class="bs-docs-section clearfix text-center">
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 block-mt-md block-mb-md col-md-top">
+					<div class="inside-full-height">
+						<a href="http://www2.shl.ne.jp/product/index.asp"><img class="img-circle" src="img/product.png" width="150" height="150" alt=""></a>
+						<h2 class="underline-bycolor yellow">
+							<a href="http://www2.shl.ne.jp/product/index.asp">私たちの商品</a>
+						</h2>
+						<p class="blurb">
+							<a href="http://www2.shl.ne.jp/product/index.asp">日本エス・エイチ・エルはさまざまな局面、さまざまなニーズに対応するラインアップで貴社の人事施策に貢献します。</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 block-mt-md block-mb-md col-md-top">
+					<div class="inside-full-height">
+						<a href="http://www2.shl.ne.jp/info.asp"><img class="img-circle" src="img/info.png" width="150" height="150" alt=""></a>
+						<h2 class="underline-bycolor pink">
+							<a href="http://www2.shl.ne.jp/info.asp">いつでもご相談ください</a>
+						</h2>
+						<p class="blurb">
+							<a href="http://www2.shl.ne.jp/info.asp">商品、IR、当社採用につきまして、それぞれ専用フォームを設置しております。どうぞご利用ください。</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-12 block-mt-md block-mb-md col-md-top">
+					<div class="inside-full-height">
+						<div class="columnlink center-block">
+							<p><span class="label label-primary">月～金曜日</span>　
+								<a href="http://www2.shl.ne.jp/hrqa2/index.asp">続・人事部長からの質問</a>
+							</p>
+							<p><span class="label label-danger">隔週月曜日</span>　
+								<a href="http://www2.shl.ne.jp/globalnews/index.asp">堀　博美のSHLグローバルニュース</a>
+							</p>
+							<p><span class="label label-info">毎週火曜日</span>　
+								<a href="http://www2.shl.ne.jp/masa/index.asp">ぼやきの政さん</a>
+							</p>
+							<p><span class="label label-warning">毎週水曜日</span>　
+								<a href="http://www2.shl.ne.jp/assessment/index.asp">アセスメントに関するFAQ</a>
+							</p>
+						</div>
+						<h2 class="underline-bycolor lightblue">好評連載コラム</h2>
+						<p class="blurb single">バラエティゆたかな連載を日々更新中！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--イベントカレンダー-->
+		<div class="bs-docs-section clearfix">
+			<h2 class="underline-bycolor" id="seminar">日本エス・エイチ・エル主催セミナー/イベント</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="event">東京開催</h3>
+					<table class="table table-striped tableSorter eCal">
+						<thead>
+						<tr>
+							<th data-sortBy="text"> 開催地 </th>
+							<th data-sortBy="text"> 費用 </th>
+							<th data-sortBy="text"> セミナー名 </th>
+							<th data-sortBy="numeric"> 日程 </th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td class="area">東京</td>
+							<td class="free">無料</td>
+							<td class="eName">
+							<a class="free" href="https://secure1.shl.ne.jp/userspage/event/opqcourse/index.asp" target="_blank">OPQ解釈コース</a>
+							</td>
+							<td data-sortAs="20161025">10/25</td>
+						</tr>
+						<tr>
+							<td class="area">東京</td>
+							<td class="pay">有料</td>
+							<td class="eName">
+							<a class="pay" href="https://secure1.shl.ne.jp/userspage/event/ac_intsk/index.asp" target="_blank">面接官セミナー 新卒基礎編</a>
+							</td>
+							<td data-sortAs="20161020">10/20</td>
+						</tr>
+						<tr>
+							<td class="area">東京</td>
+							<td class="pay">有料</td>
+							<td class="eName">
+							<a class="pay" href="https://secure1.shl.ne.jp/userspage/event/ac_intm/index.asp" target="_blank">面接官セミナー 中途基礎編</a>
+							</td>
+							<td data-sortAs="20161026">10/26</td>
+						</tr>
+						<tr>
+							<td class="area">東京</td>
+							<td class="pay">有料</td>
+							<td class="eName">
+							<a class="pay" href="https://secure1.shl.ne.jp/userspage/event/ac_intjs/index.asp" target="_blank">面接官セミナー 新卒実践編</a>
+							</td>
+							<td data-sortAs="20161122">11/22</td>
+						</tr>
+						<tr>
+							<td class="area">東京</td>
+							<td class="pay">有料</td>
+							<td class="eName">
+							<a class="pay" href="https://secure1.shl.ne.jp/userspage/event/ac_stats/index.asp" target="_blank">Excel&reg; 統計分析セミナー</a>
+							</td>
+							<td data-sortAs="20161019">10/19</td>
+						</tr>
+						<tr>
+							<td class="area">東京</td>
+							<td class="pay">有料</td>
+							<td class="eName">
+							<a class="pay" href="https://secure1.shl.ne.jp/userspage/event/ac_abc/index.asp" target="_blank">新卒採用担当者入門セミナー</a>
+							</td>
+							<td data-sortAs="20161027">10/27</td>
+						</tr>
+						<tr>
+							<td class="area">東京</td>
+							<td class="pay">有料</td>
+							<td class="eName">
+							<a class="pay" href="https://secure1.shl.ne.jp/userspage/event/ac_gd/index.asp" target="_blank">グループ討議セミナー</a>
+							</td>
+							<td data-sortAs="20170117">1/17</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-md-6">
+					<h3 class="event">名古屋・大阪開催</h3>
+					<table class="table table-striped tableSorter eCal">
+						<thead>
+						<tr>
+							<th class="area" data-sortBy="text"> 開催地 </th>
+							<th data-sortBy="text"> 費用 </th>
+							<th data-sortBy="text"> セミナー名 </th>
+							<th data-sortBy="numeric"> 日程 </th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td class="area">大阪</td>
+							<td class="free">無料</td>
+							<td class="eName">
+							<a class="free" href="https://secure1.shl.ne.jp/userspage/event/opqcrse_osk/index.asp" target="_blank">OPQ解釈コース</a>
+							</td>
+							<td data-sortAs="20161116">11/16</td>
+						</tr>
+						<tr>
+							<td class="area">名古屋</td>
+							<td class="free">無料</td>
+							<td class="eName">
+							<a class="free" href="https://secure1.shl.ne.jp/userspage/event/opqcourse_ngy/index.asp" target="_blank">OPQ解釈コース</a>
+							</td>
+							<td data-sortAs="20161028">10/28</td>
+						</tr>
+						<tr>
+							<td class="area">大阪</td>
+							<td class="pay">有料</td>
+							<td class="eName">
+							<a class="pay" href="https://secure1.shl.ne.jp/userspage/event/ac_intsk_o/index.asp" target="_blank">面接官セミナー 新卒基礎編</a>
+							</td>
+							<td data-sortAs="20161019">10/19</td>
+						</tr>
+						</tbody>
+					</table>
+					<div class="announcement">
+						<div class="alert alert-success" role="alert">
+							<strong><i class="fa fa-calendar"></i> イベントカレンダーが見やすくなりました。</strong>　
+							<p>カレンダーの見出し項目でクリック/タップすると、その項目をキーにソートされます。ご活用ください。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--更新履歴/プレスリリースー-->
+		<div class="bs-docs-section clearfix">
+			<h2 class="underline-bycolor" id="column">更新履歴/プレスリリース</h2>
+			<div class="row">
+				<div class="col-md-7">
+					<h3 class="dogear">更新情報</h3>
+					<dl class="dl-horizontal dl-history">
+						<dt>平成28年 8月10日</dt>
+						<dd>
+						<a href="http://www2.shl.ne.jp/ir/financial/report/index.asp">平成28年９月期 第３四半期 四半期報告書</a>
+						を掲載いたしました。</dd>
+						<dt>平成28年 7月29日</dt>
+						<dd>
+						<a href="http://www2.shl.ne.jp/ir/press/index.asp">業績予想の修正に関するお知らせ </a>
+						を掲載いたしました。</dd>
+						<dt>平成28年 7月29日</dt>
+						<dd>
+						<a href="http://www2.shl.ne.jp/ir/financial/index.asp">平成28年９月期第３四半期決算短信〔日本基準〕（非連結） </a>
+						を掲載いたしました。</dd>
+						<dt>平成28年 5月16日</dt>
+						<dd>
+						<a href="http://www2.shl.ne.jp/ir/financial/report/index.asp">平成28年９月期 第２四半期　四半期報告書</a>
+						を掲載いたしました。</dd>
+						<dt>平成28年 5月10日</dt>
+						<dd>
+						<a href="http://www2.shl.ne.jp/ir/for_analyst.asp">平成28年９月期 第２四半期 決算補足説明資料 </a>
+						を掲載いたしました。</dd>
+						<dt> 平成28年 4月28日</dt>
+						<dd>
+						<a href="http://www2.shl.ne.jp/ir/financial/index.asp">平成28年９月期 第２四半期決算短信〔日本基準〕（非連結） </a>
+						を掲載いたしました。</dd>
+					</dl>
+					<h3 class="dogear"> プレスリリース </h3>
+					<ul>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">新トレーニング「コンピテンシーデザインコース」をスタート</a>
+						</li>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">新商品「創造力テスト」を開発</a>
+						</li>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">組織特性サーベイ「Solution Wizard」を開発</a>
+						</li>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">2013年8月1日よりテストセンター対応のGAB（C-GAB）を発売開始</a>
+						</li>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">多言語適性テスト「SHL グループ・オンラインテスト」の新サービスを開始</a>
+						</li>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">Webテスト知的能力
+						新科目「図形加減算」を開発</a>
+						</li>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">採用向け音声理解テスト「LC@Work」を開発 </a>
+						</li>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">総合適性テストWebGABグローバル対応版を開発</a>
+						</li>
+						<li>
+						<a href="http://www2.shl.ne.jp/press/index.asp" target="_blank">新商品「めくる&times;わかる」を開発</a>
+						</li>
+					</ul>
+				</div>
+				<!--採点処理センター/ユーザーズページー-->
+				<div class="col-md-5">
+					<div class="bs-docs-section">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">採点処理センター/ユーザーズページ</h3>
+							</div>
+							<div class="panel-body">
+								<p><span class="label label-info">マークシートテストをご利用のお客様へ</span></p>
+								<p>営業日・営業時間のご案内、採点処理の受付状況確認システム、ご利用に関するFAQなどを公開しています。</p>
+								<p class="text-right">
+									<a class="btn btn-warning" href="http://www2.shl.ne.jp/ssc/index.asp" role="button">採点処理センターホームページへ &raquo;</a>
+								</p>
+								<hr>
+								<p>テストマテリアルのご発注、ユーザー企業様限定コラム、シンポジウム報告などは、こちらから。</p>
+								<p class="text-right">
+									<a class="btn btn-danger" href="https://secure1.shl.ne.jp/userspage/login.asp" role="button">ユーザーズページへログインする &raquo;</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--pマーク-->
+		<div class="row">
+			<div class="text-right">
+				<p class="pMark">
+					<a href="http://privacymark.jp/"><img src="./img/10860607_06_75_JP.gif" alt="プライバシーマーク" width="75" height="75" border="0"></a>
+				</p>
+			</div>
+		</div>
+	</div>
+</main>
+<!-- /main -->
+<!-- footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<ul>
+					<li>
+					<a href="http://www2.shl.ne.jp/company/index.asp">会社概要</a>
+					</li>
+					<li>
+					<a href="http://www2.shl.ne.jp/ir/index.asp">IR情報</a>
+					</li>
+					<li>
+					<a href="http://www2.shl.ne.jp/recruit/index.asp">採用情報</a>
+					</li>
+					<li>
+					<a href="http://www2.shl.ne.jp/ssc/index.asp">採点処理センター</a>
+					<li>
+					<a href="http://www.shl.com" target="_blank">CEB社（SHLブランド）</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<ul>
+					<li>
+					<a href="http://www.shl.co.jp/maintenance.html" target="_blank">メンテナンス情報</a>
+					<li>
+					<a href="http://www.shl.co.jp/ir/kessan/index.html">決算公告</a>
+					</li>
+					<li>
+					<a href="http://www2.shl.ne.jp/pub/index.asp">法定公告</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<ul>
+					<li>
+					<a href="http://www2.shl.ne.jp/policy/sitepolicy.asp">サイトポリシー</a>
+					</li>
+					<li>
+					<a href="http://www2.shl.ne.jp/policy/privacypolicy.asp">プライバシーポリシー</a>
+					</li>
+					<li>
+					<a href="http://www2.shl.ne.jp/policy/security.asp">情報セキュリティ基本方針</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bs-docs-section">
+			<p class="text-center">
+				<a href="http://www.shl.co.jp/">Copyright &copy; SHL-JAPAN Ltd. All rights reserved. </a>
+			</p>
+		</div>
+	</div>
+</footer>
+<!-- /footer -->
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap3/js/bootstrap.min.js"></script>
+<script src="./common/animatedtablesorter-0.2.2/tsort.min.js"></script>
+<!-- jQueryPlugin -->
+<script type="text/javascript">
+  $('[data-toggle="popover"]').popover();
+  $('[data-toggle="tooltip"]').tooltip();
+  $(function() {
+    $("table.tableSorter").tableSort();
+  });
+</script>
+</body>
+</html>
+
